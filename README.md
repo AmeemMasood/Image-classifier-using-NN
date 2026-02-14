@@ -6,7 +6,7 @@ A deep learning image classification project built with PyTorch/TensorFlow that 
 This project implements an image classification system using a fully connected neural network to classify images from the CIFAR-10 dataset. The model learns to recognize and categorize images into 10 different classes. 
 
 
-📊 Dataset
+# 📊 Dataset #
 CIFAR-10 (Canadian Institute For Advanced Research)
 
 Total Images: 60,000 color images
@@ -29,7 +29,7 @@ Test Set: 10,000 images
 
 
 
-🏗️ Model Architecture
+# 🏗️ Model Architecture #
 The neural network consists of the following components:
 Layers
 
@@ -41,13 +41,13 @@ Output layer: 10 neurons (one for each class)
 
 
 
-#Activation Function#
+# Activation Function #
 ReLU (Rectified Linear Unit): Applied after each linear layer except the output layer
 Helps with non-linearity and faster training
 Prevents vanishing gradient problem
 
 
-#Loss Function#
+# Loss Function #
 Cross-Entropy Loss: Measures the difference between predicted and actual class distributions
 Ideal for multi-class classification problems
 Combines LogSoftmax and Negative Log-Likelihood Loss
